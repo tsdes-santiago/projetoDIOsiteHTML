@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%; /* Increased width for a more modern feel */
+    background-color: rgba(0, 136, 233, 0.7); /* Darker and more vibrant blue */
+    padding: 20px; /* Consistent padding around all sides */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow for depth */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    font-family: sans-serif; /* Modern font choice */
+    color: #fff; /* White text for better readability */
+    list-style: none; /* Remove default bullet points for menu items */
+  }
+  
+  .menu li { /* Style for individual menu items */
+    margin-bottom: 10px; /* Spacing between menu items */
+  }
+  
+  .menu li a { /* Style for links within menu items (optional) */
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit white text color from .menu */
+    transition: color 0.2s ease-in-out; /* Smooth color change on hover */
+  }
+  
+  .menu li a:hover { /* Style for links on hover (optional) */
+    color: rgba(255, 255, 255, 0.8); /* Slightly lighter white on hover */
+  }
+.header {
+    background-color: rgba(5, 108, 200, 0.5);
+    min-height: 150px;
+    padding: 20px; /* Consistent padding around all sides */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow for depth */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    font-family: sans-serif; /* Modern font choice */
+}
+.content {
+    background-color: lightblue;
+    min-height: 300px;
+    padding: 20px; /* Consistent padding around all sides */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow for depth */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    font-family: sans-serif; /* Modern font choice */
+}
+.footer {
+    background-color: rgba(5, 108, 200, 0.5);
+    min-height: 150px;
+    padding: 20px; /* Consistent padding around all sides */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle drop shadow for depth */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    font-family: sans-serif; /* Modern font choice */
+}
